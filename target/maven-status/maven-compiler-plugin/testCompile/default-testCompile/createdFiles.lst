@@ -1,7 +1,9 @@
 driver\BrowserFactory$1.class
 configuration\ConfigurationProperties.class
 page\objects\LoginPage.class
+tests\FailedLoginTest.class
 page\objects\QuickLinks.class
+configuration\TestRunProperties.class
 driver\manager\DriverUtils.class
 page\objects\AngelFishList.class
 page\objects\LandingPage.class

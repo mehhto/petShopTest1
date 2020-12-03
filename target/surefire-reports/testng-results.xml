@@ -1,29 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-30T17:47:23Z" name="All Pet Shop Tests" finished-at="2020-11-30T17:47:31Z" duration-ms="7400">
+  <suite started-at="2020-12-03T18:18:03Z" name="All Pet Shop Tests" finished-at="2020-12-03T18:18:12Z" duration-ms="8758">
     <groups>
     </groups>
-    <test started-at="2020-11-30T17:47:23Z" name="FishBuy Test" finished-at="2020-11-30T17:47:31Z" duration-ms="7400">
+    <test started-at="2020-12-03T18:18:03Z" name="FishBuy Test" finished-at="2020-12-03T18:18:12Z" duration-ms="8624">
       <class name="tests.FishBuyTest">
-        <test-method is-config="true" signature="configurationLoad()[pri:0, instance:tests.FishBuyTest@35fc6dc4]" started-at="2020-11-30T17:47:23Z" name="configurationLoad" finished-at="2020-11-30T17:47:24Z" duration-ms="502" status="PASS">
+        <test-method is-config="true" signature="configurationLoad()[pri:0, instance:tests.FishBuyTest@55b5e331]" started-at="2020-12-03T18:18:03Z" name="configurationLoad" finished-at="2020-12-03T18:18:04Z" duration-ms="1139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configurationLoad -->
-        <test-method is-config="true" signature="testSetUp()[pri:0, instance:tests.FishBuyTest@35fc6dc4]" started-at="2020-11-30T17:47:24Z" name="testSetUp" finished-at="2020-11-30T17:47:29Z" duration-ms="5019" status="PASS">
+        <test-method is-config="true" signature="testSetUp(driver.BrowserType)[pri:0, instance:tests.FishBuyTest@55b5e331]" started-at="2020-12-03T18:18:04Z" name="testSetUp" finished-at="2020-12-03T18:18:09Z" duration-ms="5080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method signature="fishBuyTest()[pri:0, instance:tests.FishBuyTest@35fc6dc4]" started-at="2020-11-30T17:47:29Z" name="fishBuyTest" finished-at="2020-11-30T17:47:30Z" duration-ms="1093" status="PASS">
+        <test-method signature="fishBuyTest()[pri:0, instance:tests.FishBuyTest@55b5e331]" started-at="2020-12-03T18:18:09Z" name="fishBuyTest" finished-at="2020-12-03T18:18:11Z" duration-ms="1492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fishBuyTest -->
-        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:tests.FishBuyTest@35fc6dc4]" started-at="2020-11-30T17:47:30Z" name="cleanUpTest" finished-at="2020-11-30T17:47:31Z" duration-ms="784" status="PASS">
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:tests.FishBuyTest@55b5e331]" started-at="2020-12-03T18:18:11Z" name="cleanUpTest" finished-at="2020-12-03T18:18:12Z" duration-ms="871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUpTest -->
       </class> <!-- tests.FishBuyTest -->
     </test> <!-- FishBuy Test -->
+    <test started-at="2020-12-03T18:18:03Z" name="Failed Login Test" finished-at="2020-12-03T18:18:12Z" duration-ms="8758">
+      <class name="tests.FailedLoginTest">
+        <test-method is-config="true" signature="configurationLoad()[pri:0, instance:tests.FailedLoginTest@19542407]" started-at="2020-12-03T18:18:03Z" name="configurationLoad" finished-at="2020-12-03T18:18:04Z" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurationLoad -->
+        <test-method is-config="true" signature="testSetUp(driver.BrowserType)[pri:0, instance:tests.FailedLoginTest@19542407]" started-at="2020-12-03T18:18:04Z" name="testSetUp" finished-at="2020-12-03T18:18:09Z" duration-ms="5067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="failedLoginTest()[pri:0, instance:tests.FailedLoginTest@19542407]" started-at="2020-12-03T18:18:09Z" name="failedLoginTest" finished-at="2020-12-03T18:18:11Z" duration-ms="2125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedLoginTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:tests.FailedLoginTest@19542407]" started-at="2020-12-03T18:18:11Z" name="cleanUpTest" finished-at="2020-12-03T18:18:12Z" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+      </class> <!-- tests.FailedLoginTest -->
+    </test> <!-- Failed Login Test -->
   </suite> <!-- All Pet Shop Tests -->
 </testng-results>
