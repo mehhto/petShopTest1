@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Pet Shop Tests" parallel="tests" thread-count="2">
+
+    <test name="FishBuy Test">
+        <parameter name="browser" value="FIREFOX"/>
+        <classes>
+            <class name="tests.FishBuyTest"/>
+        </classes>
+    </test>
+
+    <test name="Failed Login Test">
+        <parameter name="browser" value="CHROME"/>
+        <classes>
+            <class name="tests.FailedLoginTest"/>
+        </classes>
+    </test>
+
+</suite>
