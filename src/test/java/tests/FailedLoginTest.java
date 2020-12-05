@@ -19,7 +19,7 @@ public class FailedLoginTest extends TestBase {
         String messageToCheck = landingPage.clickOnEnterShopLink()
                 .clickOnLoginPageLink()
                 .typeUsernameIntoUsernameField("Wrong Username")
-                .typeUsernameIntoUsernameField("Wrong Password")
+                .typePasswordIntoPasswordField("Wrong password")
                 .clickLoginButton()
                 .getMessageToCheck();
 

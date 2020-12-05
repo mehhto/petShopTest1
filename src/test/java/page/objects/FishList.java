@@ -10,7 +10,7 @@ import tests.waits.WaitForElement;
 
 public class FishList {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(FishList.class);
 
     @FindBy(xpath = "//div[@id='Catalog']/table//tr[2]//a")
     private WebElement fishType;

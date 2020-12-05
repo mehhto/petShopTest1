@@ -10,7 +10,7 @@ import tests.waits.WaitForElement;
 
 public class QuickLinks {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(QuickLinks.class);
 
     @FindBy(xpath = "//div[@id = 'QuickLinks']/a[1]")
     private WebElement fishMenuLabel;

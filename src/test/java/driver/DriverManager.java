@@ -1,5 +1,6 @@
 package driver;
 
+import driver.listeners.DriverEventListenerRegistrar;
 import org.openqa.selenium.WebDriver;
 
 import static configuration.TestRunProperties.getBrowserToRun;
@@ -22,8 +23,10 @@ public class DriverManager {
         } else {
             browser = new BrowserFactory(browserType, getIsRemoteRun()).getBrowserWebDriver();
         }
-        browserTypeThreadLocal.set(browserType);
 
+        browser = DriverEventListenerRegistrar.registerDriverEventListener(browser);
+
+        browserTypeThreadLocal.set(browserType);
         webDriverThreadLocal.set(browser);
     }
 

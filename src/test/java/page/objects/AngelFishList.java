@@ -10,7 +10,7 @@ import tests.waits.WaitForElement;
 
 public class AngelFishList {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(AngelFishList.class);
 
     @FindBy(css = "a.Button[href$='EST-2']")
     private WebElement fishSizeAddToChartMenu;

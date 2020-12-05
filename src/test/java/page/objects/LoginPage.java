@@ -10,7 +10,7 @@ import tests.waits.WaitForElement;
 
 public class LoginPage {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(LoginPage.class);
 
     @FindBy(css = "#Content ul[class='messages'] li")
     private WebElement message;

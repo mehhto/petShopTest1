@@ -10,7 +10,7 @@ import tests.waits.WaitForElement;
 
 public class ShoppingCart {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(ShoppingCart.class);
 
     @FindBy(xpath = "//div[@id = 'Cart']/a")
     private WebElement proceedButton;
